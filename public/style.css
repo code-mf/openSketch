@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  overflow: hidden;
+  height: 100%;
+  touch-action: none;
+  user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+-webkit-user-drag: none;
+-khtml-user-drag: none;
+-moz-user-drag: none;
+-o-user-drag: none;
+user-drag: none;
+background:black;
+}
+canvas {
+  display: block;
+}
+
