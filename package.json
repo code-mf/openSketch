@@ -1,0 +1,22 @@
+{
+  "name": "node-start",
+  "version": "1.0.0",
+  "description": "This is my node application for hosting p5 files and stuff",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "p5.js",
+    "server"
+  ],
+  "author": "Mark Franz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.1.1"
+  }
+}
